@@ -3,9 +3,214 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Khushi Singh - Portfolio</title>
+    <style>
+        :root {
+            --primary: #2b4c7e;
+            --text: #333333;
+            --bg: #f9fbfd;
+            --card-bg: #ffffff;
+            --border: #e1e8ed;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--bg);
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 25px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            margin: 0 0 10px 0;
+            color: var(--primary);
+            font-size: 2.2rem;
+        }
+        .tagline {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 15px;
+        }
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            font-size: 0.95rem;
+        }
+        .contact-links a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+        .contact-links a:hover {
+            text-decoration: underline;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: var(--primary);
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 5px;
+            font-size: 1.4rem;
+            margin-top: 30px;
+        }
+        h3 {
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+            color: #222;
+        }
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            flex-wrap: wrap;
+        }
+        .location {
+            font-style: italic;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        ul {
+            margin: 8px 0 20px 20px;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 6px;
+            font-size: 0.95rem;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+        }
+        .skill-category {
+            background: #f4f7f9;
+            padding: 12px 15px;
+            border-radius: 6px;
+        }
+        .skill-category h4 {
+            margin: 0 0 5px 0;
+            font-size: 0.95rem;
+            color: var(--primary);
+        }
+        .skill-category p {
+            margin: 0;
+            font-size: 0.9rem;
+            color: #444;
+        }
+    </style>
 </head>
 <body>
-    <p>Khushi Singh</p>
+
+<div class="container">
+    <header>
+        <h1>Khushi Singh</h1>
+        <div class="tagline">Master’s Student in Geographical Information Science | GIS & Environmental Researcher</div>
+        <div class="contact-links">
+            <span>Email: <a href="mailto:khushising442@gmail.com">khushising442@gmail.com</a></span>[cite: 1]
+            <span>Mobile: +44 7349293288</span>[cite: 1]
+            <span><a href="https://linkedin.com/in/" target="_blank">LinkedIn</a></span>[cite: 1]
+            <span><a href="https://github.com/" target="_blank">GitHub</a></span>[cite: 1]
+        </div>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>I am a Geographical Information Science researcher specializing in spatial analysis, remote sensing, and environmental sustainability. My work integrates field-based research, household surveys, and satellite imagery analysis (using QGIS and Google Earth Engine) to address challenges in multi-hazard risk assessment, community resilience, and resource management.</p>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <div class="item-header">
+            <h3>University of Leeds</h3>
+            <span class="location">Leeds, England</span>[cite: 1]
+        </div>
+        <p style="margin: 2px 0 10px 0; font-size: 0.95rem;">Master of Science in Geographical Information Science (Sept. 2026 – Sept. 2027 expected)</p>[cite: 1]
+
+        <div class="item-header" style="margin-top: 15px;">
+            <h3>Kalindi College, University of Delhi</h3>
+            <span class="location">Delhi, India</span>[cite: 1]
+        </div>
+        <p style="margin: 2px 0 0 0; font-size: 0.95rem;">Bachelor's degree (Completed May 2026)</p>[cite: 1]
+    </section>
+
+    <section>
+        <h2>Research Projects</h2>
+        
+        <h3>Multi-Hazard Risk and Vulnerability Assessment</h3>
+        <p class="location">Chamba, Himachal Pradesh, India</p>[cite: 1]
+        <ul>
+            <li>Conducted a field-based multi-hazard assessment across 8–10 villages in Seismic Zone V, combining household surveys ($n=50$), satellite imagery analysis, and stakeholder interviews with district officials[cite: 1].</li>
+            <li>Processed Landsat imagery in QGIS to generate LULC classification maps (2020–21 vs. 2024–25) and NDVI change-detection maps (2015 vs. 2024–25) to quantify vegetation decline linked to deforestation and climate stress[cite: 1].</li>
+            <li>Found that 63% of surveyed households lacked reliable disaster early warning systems and 45% reported visible slope instability, aligning recommendations with NDMA and UNDRR Sendai Framework priorities[cite: 1].</li>
+            <li>Produced an NDBI map (2025) to evaluate built-up area expansion for DDMA-level policy planning across landslide, GLOF, cloudburst, and forest fire zones[cite: 1].</li>
+        </ul>
+
+        <h3>Ecological Sustainability Assessment</h3>
+        <p class="location">Gokarna, Karnataka, India</p>[cite: 1]
+        <ul>
+            <li>Designed and administered a mixed-methods survey across 6 thematic domains (agriculture, water quality, fishing, religious sites, coastal management, and women's safety) covering 80–100 respondents[cite: 1].</li>
+            <li>Created a supervised LULC classification map of Gokarna (2025) using QGIS to identify land cover dynamics across coastal, agricultural, and built-up zones[cite: 1].</li>
+            <li>Highlighted critical findings: 84.2% of fishers reported declining catches, 81.6% of farmers relied on borewell irrigation amidst a dropping water table, and a clear behavior-intention gap existed regarding coastal plastic waste[cite: 1].</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Experience & Certifications</h2>
+        
+        <h3>Graphic Designer | DUstudenthelper</h3>
+        <p class="location">June 2025 – March 2026</p>[cite: 1]
+        <ul>
+            <li>Designed high-impact visual assets and performed audience trend analysis to shape targeted content strategies, maximizing engagement across the Delhi University network[cite: 1].</li>
+        </ul>
+
+        <h3>Species Distribution Modeling with Google Earth Engine | NASA ARSET</h3>
+        <p class="location">July 2026</p>[cite: 1]
+        <ul>
+            <li>Applied Google Earth Engine to process remote sensing data and environmental variables for spatial ecological modeling and biodiversity analysis[cite: 1].</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Technical Skills & Languages</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h4>GIS & Geospatial</h4>
+                <p>QGIS, Spatial Analysis, Map Interpretation</p>[cite: 1]
+            </div>
+            <div class="skill-category">
+                <h4>Remote Sensing</h4>
+                <p>Satellite Image Processing, LULC Analysis, NDVI, NDBI</p>[cite: 1]
+            </div>
+            <div class="skill-category">
+                <h4>Data, Design & Software</h4>
+                <p>Canva, MS Office</p>[cite: 1]
+            </div>
+            <div class="skill-category">
+                <h4>Research Methods</h4>
+                <p>Field Surveys, Data Collection, Data Interpretation, Report Writing</p>[cite: 1]
+            </div>
+            <div class="skill-category" style="grid-column: 1 / -1;">
+                <h4>Languages</h4>
+                <p>English (Fluent), Hindi (Native)</p>[cite: 1]
+            </div>
+        </div>
+    </section>
+</div>
+
 </body>
 </html>
